@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1482623435 source:c:\users\tataki\documents\keylogger\main.cpp
+	<iostream>
+	<windows.h>
+	"Helper.h"
+	"Base64.h"
+	"IO.h"
+	"Timer.h"
+	"SendMail.h"
+	"KeybHook.h"
+
+1482834098 c:\users\tataki\documents\keylogger\helper.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1482834619 c:\users\tataki\documents\keylogger\base64.h
+	<vector>
+	<string>
+
+1482544550 c:\users\tataki\documents\keylogger\keyconstansts.h
+	<map>
+	<string>
+
+1482832585 c:\users\tataki\documents\keylogger\io.h
+	<string>
+	<cstdlib>
+	<fstream>
+	"windows.h"
+	"Helper.h"
+	"Base64.h"
+
+1482282959 c:\users\tataki\documents\keylogger\timer.h
+	<thread>
+	<chrono>
+
+1482635134 c:\users\tataki\documents\keylogger\sendmail.h
+	<fstream>
+	<vector>
+	"windows.h"
+	"IO.h"
+	"Timer.h"
+	"Helper.h"
+
+1482794013 c:\users\tataki\documents\keylogger\keybhook.h
+	<iostream>
+	<fstream>
+	"windows.h"
+	"KeyConstansts.h"
+	"Timer.h"
+	"SendMail.h"
+
+1483540632 source:c:\users\obrelix\documents\keylogger\main.cpp
+	<iostream>
+	<windows.h>
+	"IO.h"
+	"Hooks.h"
+
+1483459572 c:\users\obrelix\documents\keylogger\helper.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1483144177 c:\users\obrelix\documents\keylogger\base64.h
+	<string>
+
+1483541427 c:\users\obrelix\documents\keylogger\io.h
+	<string>
+	<cstdlib>
+	<fstream>
+	"windows.h"
+	"Auxiliary.h"
+	"Encryption.h"
+	<Lmcons.h>
+	<wininet.h>
+	<iostream>
+	<locale>
+
+1482282959 c:\users\obrelix\documents\keylogger\timer.h
+	<thread>
+	<chrono>
+
+1483538681 c:\users\obrelix\documents\keylogger\sendmail.h
+	<fstream>
+	<vector>
+	"windows.h"
+	"IO.h"
+	"Timer.h"
+	"Helper.h"
+
+1483539824 c:\users\obrelix\documents\keylogger\keybhook.h
+	<iostream>
+	<fstream>
+	"windows.h"
+	"KeyConstansts.h"
+	"Timer.h"
+	"SendMail.h"
+	<string>
+	<locale>
+
+1482970352 c:\users\obrelix\documents\keylogger\keyconstansts.h
+	<map>
+	<string>
+
+1483540395 c:\users\obrelix\documents\keylogger\auxiliary.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1483541362 c:\users\obrelix\documents\keylogger\encryption.h
+	<string>
+
+1483540872 c:\users\obrelix\documents\keylogger\hooks.h
+	<iostream>
+	<fstream>
+	"windows.h"
+	"KeystrockesMap.h"
+	"Timer.h"
+	"MailScript.h"
+	<string>
+	<locale>
+
+1483541279 c:\users\obrelix\documents\keylogger\keystrockesmap.h
+	<map>
+	<string>
+
+1483541237 c:\users\obrelix\documents\keylogger\mailscript.h
+	<fstream>
+	<vector>
+	"windows.h"
+	"IO.h"
+	"Timer.h"
+	"Auxiliary.h"
+

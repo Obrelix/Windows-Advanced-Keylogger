@@ -28,5 +28,5 @@ It is necessary to open the following Compiler Flags
 
 ![alt tag](https://raw.githubusercontent.com/Obrelix/Windows-Advanced-Keylogger/master/Images/Flags.PNG)
 
-This program does not depend on other auxiliary programs or libraries to function properly excepts Windows Powershell. 
+This program does not depend on other auxiliary programs or libraries to function properly except for Windows Powershell. 
 It can runs in a clean install of Windows 7 or later.

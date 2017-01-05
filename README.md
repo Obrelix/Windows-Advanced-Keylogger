@@ -16,7 +16,7 @@ Storing  Windows username, external IP
 Creating an encrypted log file and sending it as attachment via e-mail
 
 #Upcomming
-Auto Screeshot
+Auto Screenshot
 
 Storing Internal IP
 
@@ -28,5 +28,5 @@ It is necessary to open the following Compiler Flags
 
 ![alt tag](https://raw.githubusercontent.com/Obrelix/Windows-Advanced-Keylogger/master/Images/Flags.PNG)
 
-This program does not depend other auxiliary programs or libraries to function propertly excepts Windows Powershell. 
+This program does not depend on other auxiliary programs or libraries to function properly excepts Windows Powershell. 
 It can runs in a clean install of Windows 7 or later.

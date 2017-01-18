@@ -135,3 +135,56 @@
 	"Timer.h"
 	"Auxiliary.h"
 
+1484760453 source:c:\users\obrelix\source\repos\gitkeylogger\main.cpp
+	<iostream>
+	<windows.h>
+	"IO.h"
+	"Hooks.h"
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\io.h
+	<string>
+	<cstdlib>
+	<fstream>
+	"windows.h"
+	"Auxiliary.h"
+	"Encryption.h"
+	<Lmcons.h>
+	<wininet.h>
+	<iostream>
+	<locale>
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\auxiliary.h
+	<ctime>
+	<string>
+	<sstream>
+	<fstream>
+
+1484763447 c:\users\obrelix\source\repos\gitkeylogger\encryption.h
+	<string>
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\hooks.h
+	<iostream>
+	<fstream>
+	"windows.h"
+	"KeystrockesMap.h"
+	"Timer.h"
+	"MailScript.h"
+	<string>
+	<locale>
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\keystrockesmap.h
+	<map>
+	<string>
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\timer.h
+	<thread>
+	<chrono>
+
+1484760453 c:\users\obrelix\source\repos\gitkeylogger\mailscript.h
+	<fstream>
+	<vector>
+	"windows.h"
+	"IO.h"
+	"Timer.h"
+	"Auxiliary.h"
+

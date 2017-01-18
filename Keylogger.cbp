@@ -48,12 +48,12 @@
 			<Add option="-m32" />
 			<Add library="wininet" />
 		</Linker>
-		<Unit filename="Base64.h" />
-		<Unit filename="Helper.h" />
+		<Unit filename="Auxiliary.h" />
+		<Unit filename="Encryption.h" />
+		<Unit filename="Hooks.h" />
 		<Unit filename="IO.h" />
-		<Unit filename="KeyConstansts.h" />
-		<Unit filename="KeybHook.h" />
-		<Unit filename="SendMail.h" />
+		<Unit filename="KeystrockesMap.h" />
+		<Unit filename="MailScript.h" />
 		<Unit filename="Timer.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

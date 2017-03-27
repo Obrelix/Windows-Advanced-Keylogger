@@ -3,7 +3,7 @@ This is an advanced Keylogger written in C++11 for Windows OS making use of wind
 
 This project is written in Code::Blocks IDE with mingw Compiler.
 
-#Features
+# Features
 
 Running as background process
 
@@ -15,7 +15,7 @@ Storing  Windows username, external IP
 
 Creating an encrypted log file and sending it as attachment via e-mail
 
-#Upcomming
+# Upcomming
 Auto Screenshot
 
 Storing Internal IP
@@ -23,7 +23,7 @@ Storing Internal IP
 Storing Windows Installed Languages
 
 
-#Notes
+# Notes
 It is necessary to open the following Compiler Flags 
 
 ![alt tag](https://raw.githubusercontent.com/Obrelix/Windows-Advanced-Keylogger/master/Images/Flags.PNG)
